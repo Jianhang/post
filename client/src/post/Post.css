@@ -1,0 +1,118 @@
+.posts-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+    padding: 20px 10px 15px 15px;
+    letter-spacing: .01em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.post-topic {
+    font-weight: 500;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .post-topic {
+        font-size: 18px;
+    }
+}
+
+.post-comments-text {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .post-comments-text {
+        color: #657786;
+        font-size: 12px;
+    }
+}
+
+.post-comments {
+    color: #657786;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.separator {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #8899A6;
+}
+
+
+.post-creator-info {
+    margin-left: 58px;
+    margin-bottom: 10px;
+    height: 58px;
+}
+
+.post-creator-info .creator-link {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.post-creator-info .creator-link:hover .post-creator-name {
+    color: #1890ff;
+    text-decoration: underline;
+}
+
+.post-creator-avatar {
+    float: left;
+    margin-top: 3px;
+    margin-left: -58px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 24px;
+}
+
+.post-creator-avatar > * {
+    line-height: 48px;
+    font-size: 18px;
+}
+
+.post-creator-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 4px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.post-creator-username {
+    color: #657786;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.post-creation-date {
+    display: block;
+    color: #657786;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.post-delete-icon {
+    margin: 0 0 80% 0;
+}
+
+.comment-delete-icon {
+    display: flow;
+    float: right;
+    margin: 0 3% 0 0;
+}
+
