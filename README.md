@@ -5,7 +5,7 @@
 ```
 create database post_app
 ```
-### 2.运行。
+### 2.运行
 ```
 cd post/server/
 mvn spring-boot:run
