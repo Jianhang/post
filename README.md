@@ -5,7 +5,7 @@
 ```
 create database post_app
 ```
-### 2.运行。打开http://localhost:5000。
+### 2.运行。打开`http://localhost:5000`。
 ```
 cd post/server/
 mvn spring-boot:run
