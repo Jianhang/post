@@ -7,7 +7,7 @@ create database post_app
 ```
 ### 2.运行
 ```
-cd post/server/
+cd spring-react/server/
 mvn spring-boot:run
 ```
 打开`http://localhost:5000`。
