@@ -9,7 +9,6 @@
     <packaging>jar</packaging>
     
     <name>post</name>
-    <description>Polling App built with Spring Boot, Spring Security, MySQL and JWT</description>
     
     <parent>
         <groupId>org.springframework.boot</groupId>
